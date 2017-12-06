@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.fullpaper {
+	width: 100%;
+	height: 100%;
+	background-color: none;
+}
+.carditty {
+	width: 50%;
+	height: 25%;
+	padding-top: 34px;
+	padding-left: 27px;
+	padding-right: 27px;
+	padding-bottom: 13px;
+	float:left;
+	background-color:#fff;
+}
+.carditty2 { 
+	width: 50%;
+	height: 25%;
+	padding-top: 34px;
+	padding-left: 27px;
+	padding-right: 27px;
+	padding-bottom: 13px;
+	float:left;
+	border:dashed thin #000000;
+	background-color: #fff;
+	margin: auto;
+}
+.titlebox {
+	width: 3.5in;
+	height: 0.15in;
+	text-align: left;
+	font-size: 12pt;
+	padding-bottom: 0px;
+	line-height: 12px;
+	font-weight: 500;
+	margin-bottom: 2px;
+	background-color:#FFFFFF;
+	border:none;background-image: url(images/card_tittle.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.textbox {
+	width: 3.5in;
+	height: 1in;
+	text-align: left;
+	font-size: 8.25pt;
+	font-weight: normal;
+	line-height: 12px;
+	margin-bottom: 0.227in;
+	background-color:#FFFFFF;
+	border:none;
+	background-image: url(images/card_tittle.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.textbox2 {
+	width: 3.5in;
+	height: 1in;
+	text-align: left;
+	font-size: 10pt;
+	font-weight: normal;
+	line-height: 12px;
+	margin-bottom: 0.227in;
+	border:none;background-image: url(images/card_tittle.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.subtext {
+	width: 2.75in;
+	height: 0.55in;
+	text-align: left;
+	font-size: 6pt;
+	font-weight: lighter;
+	line-height: 9px;
+	background-color:#FFFFFF;
+	border:none;
+	background-image: url(images/card_tittle.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.subtext2 {
+	width: 2.75in;
+	height: 0.55in;
+	text-align: left;
+	font-size: 8pt;
+	font-weight: lighter;
+	line-height: 9px;
+	border:none;background-image: url(images/card_tittle.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.paddy {
+	width: 252px;
+	height: 0.227in;
+}
+.paddypadpad {
+	width: 252px;
+	height: 8px;
+}
+.biggiesmalls {
+	width: 850px;
+	height: 1100px;
+	padding: 34px;
+	align-content: center;
+	margin:auto;
+}
+.padent {
+	width: 27px;
+	height: 34px;
+}
+.row2 {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 8.5in;
+	height: auto;
+	margin: auto;
+}
+.content-section-fuck {
+	padding-top: 80px;
+	padding-bottom: 2%;
+  	background-color: #f8f8f8;
+	
+}
+.btn-gill, .btn-courier, .btn-pal {
+	color: #000000;
+}

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#section-to-print {
+	overflow: hidden !important;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+	overflow: hidden !important;
+	background: hidden !important;
+  }
+  #section-to-print, #section-to-print * {
+    visibility: visible;
+	 border: transparent;
+	 overflow: hidden !important;
+	 background-image: none !important;
+  }
+  #section-to-print {
+    position: absolute;
+	top: 0;
+	left: 3px;
+	margin: auto;
+	padding: 0px; 
+	background-color: #fff;
+	overflow: hidden !important;
+	height: 100%;
+	width: 100%;
+	background-image: none !important;
+  }
+	#flippymcflipface {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+	background-image: none !important;
+}
+	#fullpage1 {
+		page-break-before: always;
+	}
+	#fullpage2 {
+		page-break-before: always;
+	}
+	#fullpage3 {
+		page-break-before: always;
+	}
+	#fullpage4 {
+		page-break-before: always;
+	}
+}
+@page {
+	  size: 8.5in 11in;
+}
