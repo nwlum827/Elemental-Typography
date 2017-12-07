@@ -1,41 +1,61 @@
 @charset "UTF-8";
 /* CSS Document */
-
+.toolbarar {
+	
+	margin: auto;
+}
 .fullpaper1 {
 	width: 8.5in;
 	height: 11in;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-color: #00cc99;
+	background-color: #fff;
 	float: left;
+	align-self: center;
+	margin-left: 100px; 
+	margin-right:auto;
 }
 .fullpaper2 {
 	width: 8.5in;
 	height: 11in;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-color: #5D5D5D;
-	float: left;
+	background-color: #fff;
+	float: left; 
+	margin-right:auto;
 }
 .fullpaper3 {
 	width: 8.5in;
 	height: 11in;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-color: #5D5D5D;
+	background-color: #fff;
 	float: left;
+	margin-left: 100px; 
+	margin-right:auto;
 }
 .fullpaper4 {
 	width: 8.5in;
 	height: 11in;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-color: #00CC99;
+	background-color: #fff;
 	float: left;
+	margin-right:auto;
+}
+.fullpaper5 {
+	width: 8.5in;
+	height: 11in;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #fff;
+	float: left;
+	margin-left: 100px; 
+	margin-right:auto;
 }
 
 .biggiesmalls {
-	width: 1700px;
+	width: 1100px;
 	height: 2500px;
 	padding: 34px;
 	align-content: center;
@@ -64,7 +84,7 @@
 	color: #000000;
 }
 .postersection {
-	width: 1800px;
+	width: 2000px;
 	height: 2200px;
 	margin:auto;
 	float: left;
@@ -188,6 +208,20 @@
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+.marginaliatext3L {
+	width: 35.294118%;
+	height: 89.772727%;
+	font-size: 8pt;
+	line-height: 12pt;
+	margin-right: 5.882353%;
+	text-align: right;
+	margin-left: 8.823529%;
+	margin-bottom: 2.272727%;
+	border: none;
+	background-image: url(images/bodaycopayR2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
 .bodaytextL {
 	width: 47.058824%;
 	height: 75%;
@@ -239,6 +273,19 @@
 	float: left;
 	border: none;
 	background-image: url(images/bodaycopay2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.bodaytext3L {
+	width: 47.058824%;
+	height: 89.772727%;
+	font-size: 12.5pt;
+	line-height: 18pt;
+	text-align: right;
+	float: right;
+	margin-right: 2.941176%;
+	border: none;
+	background-image: url(images/bodaycopayR2.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
