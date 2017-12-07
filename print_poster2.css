@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#section-to-print {
+	overflow: hidden !important;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+	/*overflow: hidden !important;*/
+	background: hidden !important;
+  }
+  #section-to-print, #section-to-print * {
+    visibility: visible;
+	 border: transparent;
+	 /*overflow: hidden !important;*/
+	 background-image: none !important;
+
+  }
+  #section-to-print {
+    position: absolute;
+	top: 0;
+	left: 3px;
+	margin: auto;
+	padding: 0px; 
+	background-color: #B00F12;
+
+	/*height: 22in;
+	width: 17in;*/
+	background-image: none !important;
+	float: none;
+  }
+
+	.fullpaper1 {
+		
+		page-break-after: always;
+		position: relative;
+		float: none;
+		width: 8.5in;
+		height: 11in;
+	}
+	.fullpaper2 {
+		page-break-after: always;
+		position: relative;
+		float: none;
+		width: 8.5in;
+		height: 11in
+	}
+	.fullpaper3 {
+		page-break-after: always;
+		position: relative;
+		float: none;
+		width: 8.5in;
+		height: 11in
+	}
+	.fullpaper4 {
+		page-break-after: always;
+		position: relative;
+		float: none;
+		width: 8.5in;
+		height: 11in
+	}
+
+
+}
