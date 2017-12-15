@@ -11,54 +11,45 @@
 	overflow: hidden !important;
 	background: hidden !important;
   }
-  #section-to-print, #section-to-print * {
-    visibility: visible;
-	 border: transparent;
-	 overflow: hidden !important;
-	 background-image: none !important;
 
-  }
-  #section-to-print {
-    position: absolute;
-	top: 0;
-	left: 3px;
-	margin: auto;
-	padding: 0px; 
-	background-color: #fff;
-	/*overflow: hidden !important;
-	height: 100%;
-	width: 100%;*/
-	background-image: none !important;
-	float: none;
-  }
-
-	#fullpage1 {
-		page-break-before: always;
-		float: left;
-		height: 11in;
+	.fullpage1 *{
+		visibility: visible;
+	 	border: transparent;
+	 	overflow: hidden !important;
+	 	background-image: none !important;
+		background-color: #850002;
+		float: none;
 		width: 8.5in;
-	}
-	#fullpage2 {
-		page-break-before: always;
-		float: left;
 		height: 11in;
-		width: 8.5in;
 	}
-	#fullpage3 {
-		page-break-before: always;
-		float: left;
+	.fullpage2 *{
+		visibility: visible;
+	 	border: transparent;
+	 	overflow: hidden !important;
+	 	background-image: none !important;
+		background-color: #850002;
+		float: none;
+		width: 8.5in;
 		height: 11in;
-		width: 8.5in;
 	}
-	#fullpage4 {
-		page-break-before: always;
-		float: left;
+	.fullpage3 *{
+		visibility: visible;
+	 	border: transparent;
+	 	overflow: hidden !important;
+	 	background-image: none !important;
+		background-color: #850002;
+		float: none;
+		width: 8.5in;
 		height: 11in;
-		width: 8.5in;
 	}
-
-
-@page {
-  size: 8.5in 11in;
-}
+	.fullpage4 *{
+		visibility: visible;
+	 	border: transparent;
+	 	overflow: hidden !important;
+	 	background-image: none !important;
+		background-color: #850002;
+		float: none;
+		width: 8.5in;
+		height: 11in;
+	}
 }

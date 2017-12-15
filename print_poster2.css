@@ -7,60 +7,64 @@
 
 @media print {
   body * {
-    visibility: hidden;
-	/*overflow: hidden !important;*/
-	background: hidden !important;
-  }
-  #section-to-print, #section-to-print * {
-    visibility: visible;
-	 border: transparent;
-	 /*overflow: hidden !important;*/
-	 background-image: none !important;
-
-  }
-  #section-to-print {
-    position: absolute;
-	top: 0;
-	left: 3px;
-	margin: auto;
-	padding: 0px; 
-	background-color: #B00F12;
-
-	/*height: 22in;
-	width: 17in;*/
-	background-image: none !important;
-	float: none;
+	background-color: #FFFFFF;
   }
 
-	.fullpaper1 {
-		
-		page-break-after: always;
-		position: relative;
-		float: none;
+	#fuccU * {
+		display: none;
+	}
+
+	.fullpaper1 * {
+		display: block;
+		visibility: visible;
+	 	border: transparent;
+	 	overflow: hidden !important;
+	 	background-image: none !important;
+		background-color: #FFFFFF;
+		float: left;
 		width: 8.5in;
 		height: 11in;
 	}
-	.fullpaper2 {
+	.fullpaper2 * {
+		visibility: visible;
+	 	border: transparent;
+	 	background-color: #FFFFFF;
+		background-image: none !important;
+		float: left;
+		width: 8.5in;
+		height: 11in;
+	}
+	.fullpaper3 * {
+		visibility: visible;
+	 	border: transparent;
+	 	overflow: hidden !important;
+	 	background-image: none !important;
+		background-color: #FFFFFF;
 		page-break-after: always;
-		position: relative;
-		float: none;
+		float: left;
 		width: 8.5in;
 		height: 11in
 	}
-	.fullpaper3 {
+	.fullpaper4 * {
+		visibility: visible;
+	 	border: transparent;
+	 	overflow: hidden !important;
+	 	background-image: none !important;
+		background-color: #FFFFFF;
 		page-break-after: always;
-		position: relative;
-		float: none;
+		float: left;
 		width: 8.5in;
 		height: 11in
 	}
-	.fullpaper4 {
+	.fullpaper5 * {
+		visibility: visible;
+	 	border: transparent;
+	 	overflow: hidden !important;
+	 	background-image: none !important;
+		background-color: #FFFFFF;
 		page-break-after: always;
-		position: relative;
-		float: none;
+		float: left;
 		width: 8.5in;
 		height: 11in
 	}
-
-
 }
