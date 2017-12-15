@@ -9,7 +9,9 @@
   body  {
 	background-color: #FFFFFF;
   }
-
+	.givethesucc {
+		display: none;
+	}
 	#fuccU  {
 		display: none;
 	}
@@ -23,7 +25,6 @@
 		height: 11in;
 	}
 	.fullpaper2  {
-		visibility: visible;
 	 	border: transparent;
 	 	background-color: #FFFFFF;
 		overflow: hidden !important;
@@ -33,7 +34,6 @@
 		height: 11in;
 	}
 	.fullpaper3  {
-		visibility: visible;
 	 	border: transparent;
 	 	overflow: hidden !important;
 	 	background-image: none !important;
@@ -44,7 +44,6 @@
 		height: 11in
 	}
 	.fullpaper4  {
-		visibility: visible;
 	 	border: transparent;
 	 	overflow: hidden !important;
 	 	background-image: none !important;
@@ -55,7 +54,6 @@
 		height: 11in
 	}
 	.fullpaper5  {
-		visibility: visible;
 	 	border: transparent;
 	 	overflow: hidden !important;
 	 	background-image: none !important;

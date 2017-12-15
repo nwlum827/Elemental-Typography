@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
+@media only screen {
 .fullpaper {
 	width: 11in;
 	height: 8.5in;
@@ -222,4 +222,5 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
 }

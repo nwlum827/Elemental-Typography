@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@media only screen {
 .fullpaper {
 	width: 8.5in;
 	height: 11in;
@@ -137,4 +138,5 @@
 .toolbarar {
 	text-align: center;
 	margin-top: 2%;
+}
 }

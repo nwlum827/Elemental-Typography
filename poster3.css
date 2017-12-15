@@ -3,14 +3,26 @@
 
 @media only screen {
 
-	p {
-		text-align: center !important;
-	}
+p {
+	text-align: center !important;
+}
 	
 .toolbarar {
 	
 	margin: auto;
 }
+	.givethesucc {
+		width: 10vw;
+		height: 51.765vw;
+		float: left;
+		clear: left;
+	}
+		.givethesuccagain {
+		width: 30vw;
+		height: 51.765vw;
+		float: left;
+		clear: left;
+	}
 .fullpaper1 {
 	width: 40vw;
 	height: 51.765vw;
@@ -18,7 +30,7 @@
 	background-size: 100%;
 	background-color: #fff;
 	float: left;
-	page-break-after: always
+	page-break-after: always;
 }
 .fullpaper2 {
 	width: 40vw;
@@ -35,7 +47,7 @@
 	background-size: 100%;
 	background-color: #fff;
 	float: left;
-	clear: left;
+	/*clear: left;*/
 }
 .fullpaper4 {
 	width: 40vw;
