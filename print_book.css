@@ -6,7 +6,10 @@
 }
 
 @media print {
-  body * {
+	#fuccU {
+		display: none;
+	}
+	body * {
     visibility: hidden;
 	overflow: hidden !important;
 	background: hidden !important;
@@ -15,7 +18,7 @@
     visibility: visible;
 	 border: transparent;
 	 overflow: hidden !important;
-	 background-image: none !important;
+
   }
   #section-to-print {
     position: absolute;
@@ -27,7 +30,7 @@
 	overflow: hidden !important;
 	height: 100%;
 	width: 100%;
-	background-image: none !important;
+
   }
 	#flippymcflipface {
     -moz-transform: rotate(180deg);

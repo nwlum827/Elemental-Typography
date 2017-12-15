@@ -1,15 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 .fullpaper {
-	/*width: 100%;
-	height: 100;*/
 	width: 11in;
 	height: 8.5in;
 	background-color: none;
 	background-image: url(images/book_fullpage.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
+	margin: auto;
 }
 .halfsheets {
 	width: 100%;
@@ -220,5 +220,6 @@
 	width:inherit;
 	height:50%;
 	margin-left: auto;
-	padding-left: 33.333%;
+	margin-right: auto;
+	text-align: center;
 }

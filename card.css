@@ -2,12 +2,13 @@
 /* CSS Document */
 
 .fullpaper {
-	width: 100%;
-	height: 100%;
+	width: 8.5in;
+	height: 11in;
 	background-color: none;
 	background-image: url(images/card_fullpage.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
+	margin: auto;
 }
 .carditty {
 	width: 50%;
@@ -132,4 +133,8 @@
 }
 .btn-gill, .btn-courier, .btn-pal {
 	color: #000000;
+}
+.toolbarar {
+	text-align: center;
+	margin-top: 2%;
 }
