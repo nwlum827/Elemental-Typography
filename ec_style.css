@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Great Vibes', cursive;
+	background-color: #E0E0E0
+}
+
+.printymcprintface {
+	width: 11in;
+	height: 8.5in;
+	padding: 0.25in;
+	margin: auto;
+	background-image: url(images/ec.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.emptyhalfcard {
+	width: 3.6666667in;
+	height: 2in;
+	float: left;
+}
+.halfcard {
+	width: 3.6666667in;
+	height: 1.75in;
+	float: left;
+	padding-top: 0.5in;
+}
+.showman {
+	width: 3.6666667in;
+	height: 1.75in;
+	padding-top: 0.5in;
+	margin: auto;
+	background-image: url(images/ec_ex.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.namegame {
+	width: 2.25in;
+	height: 0.75in;
+	margin-left: 0.68in;
+	margin-bottom: 0.125in;
+	font-size: 24pt;
+	line-height: 26pt;
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+}
+.tabl_box {
+	width: 1.5in;
+	height: 0.25in;
+	margin-left: 1.0625in;
+}
+.tabl {
+	width: 0.875in;
+	height: inherit;
+	font-size: 15pt;
+	font-family: 'Great Vibes', cursive;
+	text-align: right;
+	float: left;
+	margin-top: 0.03in;
+}
+.numberbumber {
+	width: 0.375in;
+	height: inherit;
+	font-size: 15pt;
+	font-family: 'Great Vibes', cursive;
+	float: left
+}
+textarea {
+	resize: none;
+	overflow: hidden;
+	font-family: 'Great Vibes', cursive;
+	padding: none;
+	border: none;
+	background-color: #E0E0E0;
+}
+.fuccthesucc {
+	height: auto;
+	margin-bottom: 50px;
+}
+.rowrowrowyourboat {
+	clear: left;
+	margin: auto;
+	width: 230px;
+	height: 50px;
+	text-align: justify!important;
+	margin-top: 25px !important;
+}
+.buttonbuttonwhosgotthebutton {
+	width: 50px;
+	height: 42px;
+	background-color: #FFFFFF;
+	border: thick !important;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 1em;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 25px;
+	text-align: center;
+	vertical-align: middle !important;
+	padding-top: 8px;
+	float: left;
+}
+.buttonmcbuttonface {
+	width: 100px;
+	height: 45px;
+	background-color: #FFFFFF;
+	border: thick !important;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 1em;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 50px;
+	text-align: center;
+	vertical-align: middle !important;
+	padding-top: 5px;
+	float: left;
+}
+a:link {
+		color: #000000;
+	} 
+a:hover {
+		color: #A0A0A0;
+	}
+a {
+	color: #000000;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+	vertical-align: middle;
+}
+
+@media only print {
+	body {
+		background-color: none !important;
+	}
+	textarea {
+		background-color: none !important;
+	}
+	.fuccthesucc {
+		display: none !important;
+	}
+	.printymcprintface {
+		margin-top: -15px !important;
+		margin: none;
+		padding: none;
+		overflow: hidden;
+		float: left;
+	}
+}
